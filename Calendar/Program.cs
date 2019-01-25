@@ -7,7 +7,7 @@ namespace Calendar
         static void Main(string[] args)
         {
             Console.WriteLine("This app shows you the selected month with days of current year.");
-            Console.WriteLine("Select the month in number format(eg 1 or 12)");
+            Console.WriteLine("Select the month in three letter format(eg jan or sep)");
 
             String ch = Console.ReadLine();
             Program program = new Program();
